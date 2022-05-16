@@ -1,6 +1,5 @@
-// require ("dotenv").config();
-const dotenv = require ("dotenv");
-const dotenvExpand = require("dotenv-expan");
+const dotenv = require ('dotenv');
+const dotenvExpand = require('dotenv-expan');
 
 const myEnv = dotenv.config();
 dotenvExpand.expand(myEnv);
